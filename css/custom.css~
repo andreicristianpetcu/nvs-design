@@ -1,0 +1,12 @@
+.creampaper {
+  background: url("../img/creampaper.png");
+}
+.paper_fibers {
+  background: url("../img/paper_fibers.png");
+}
+.subtle_grunge {
+  background: url("../img/subtle_grunge.png");
+}
+.otisredding {
+  background: url("../img/otis_redding.png");
+}
