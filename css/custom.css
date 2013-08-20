@@ -1,12 +1,23 @@
 .creampaper {
-  background: url("../img/creampaper.png");
+	background: url("../img/creampaper.png");
 }
 .paper_fibers {
-  background: url("../img/paper_fibers.png");
+	background: url("../img/paper_fibers.png");
 }
 .subtle_grunge {
-  background: url("../img/subtle_grunge.png");
+	background: url("../img/subtle_grunge.png");
 }
 .otis_redding {
-  background: url("../img/otis_redding.png");
+	background: url("../img/otis_redding.png");
+}
+
+h4.footer_category {
+	color: #e4e4e4 !important;
+	text-decoration: none !important;
+	font-size: 14px;
+	font-weight: bold;
+	position: relative;
+	margin-left: 16px;
+	display: inline-block;
+	margin-top: 7px;
 }
