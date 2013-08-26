@@ -53,3 +53,11 @@ div.logged_in_bar a {
 	color: rgb(228, 228, 228) !important;
 	font-size: 14px;
 }
+
+.header {
+	color: #ccc;
+	background-color: #31353a;
+	background-image: -webkit-linear-gradient(top, #31353a, #2f3337);
+	background-image: -moz-linear-gradient(top, #31353a, #2f3337);
+	background-image: linear-gradient(top, #31353a, #2f3337);
+}
