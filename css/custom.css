@@ -15,8 +15,18 @@
 }
 
 .rectangular_panel {
-	background-color: #447294;
+	background-color: #2A75A9;
 	text-align: justify;
+	color: #f4d6bc;
+	border-radius: 15px 15px 15px 15px;
+	padding: 10px;
+	font-family: 'Anonymous Pro';
+	font-weight: bold;
+	font-style: normal;
+}
+
+.rectangular_panel_light_blue {
+	background-color: #7EB5D6;
 	color: #f4d6bc;
 	border-radius: 15px 15px 15px 15px;
 	padding: 10px;
