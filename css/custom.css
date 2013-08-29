@@ -10,6 +10,20 @@
 .otis_redding {
 	background: url("../img/otis_redding.png");
 }
+.cream_dust {
+	background: url("../img/cream_dust.png");
+}
+
+.rectangular_panel {
+	background-color: #447294;
+	text-align: justify;
+	color: #f4d6bc;
+	border-radius: 15px 15px 15px 15px;
+	padding: 10px;
+	font-family: 'Anonymous Pro';
+	font-weight: bold;
+	font-style: normal;
+}
 
 h4.footer_category {
 	color: #e4e4e4 !important;
@@ -35,13 +49,13 @@ a.home:before {
 }
 
 .logged_in_bar {
-    font-weight: bold;
-    font-size: 12px;
-    padding: 3px 8px 1px 8px;
-    height: 19px;
-    background: #b0b0b0;
-    border-radius: 5px;
-    float: right;
+	font-weight: bold;
+	font-size: 12px;
+	padding: 3px 8px 1px 8px;
+	height: 19px;
+	background: #b0b0b0;
+	border-radius: 5px;
+	float: right;
 	color: rgb(228, 228, 228) !important;
 	background-color: #31353a;
 	background-image: -webkit-linear-gradient(top, #31353a, #2f3337);
