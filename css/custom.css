@@ -35,6 +35,10 @@
 	font-style: normal;
 }
 
+.padding13 {
+	padding: 13px;
+}
+
 h4.footer_category {
 	color: #e4e4e4 !important;
 	text-decoration: none !important;
