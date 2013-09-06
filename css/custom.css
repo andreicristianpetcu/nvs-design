@@ -1,35 +1,23 @@
-.creampaper {
-	background: url("../img/creampaper.png");
-}
-.paper_fibers {
-	background: url("../img/paper_fibers.png");
-}
-.subtle_grunge {
+.subtlepattern {
+	/*background: url("../img/creampaper.png");
+	background: url("../img/paper_fibers.png");*/	
+	
 	background: url("../img/subtle_grunge.png");
+
+	/*background: url("../img/otis_redding.png");
+	 background: url("../img/cream_dust.png");*/
 }
-.otis_redding {
-	background: url("../img/otis_redding.png");
-}
-.cream_dust {
-	background: url("../img/cream_dust.png");
+
+@font-face {
+	font-family: Open Sans;
+	src: url("../fonts/open-sans/OpenSans-Light.ttf");
 }
 
 .rectangular_panel {
 	text-align: justify;
-	color: #2A75A9;
 	border-radius: 15px 15px 15px 15px;
 	padding: 10px;
-	font-family: 'Anonymous Pro';
-	font-weight: bold;
-	font-style: normal;
-}
-
-.rectangular_panel_light_blue {
-	background-color: #7EB5D6;
-	color: #f4d6bc;
-	border-radius: 15px 15px 15px 15px;
-	padding: 10px;
-	font-family: 'Anonymous Pro';
+	font-family: 'Open Sans';
 	font-weight: bold;
 	font-style: normal;
 }
