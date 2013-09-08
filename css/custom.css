@@ -36,7 +36,7 @@ body {
 .main_menu {
 	/*	border-bottom: 1px solid rgb(220, 220, 209); */
 	font-family: 'Open Sans';
-	letter-spacing: 0.03em;
+	letter-spacing: 0.05em;
 }
 
 /* override foundation's css stuff */
@@ -47,19 +47,27 @@ a {
 ul.main_menu {
 	list-style: none outside none;
 	list-style-type: none;
-	height: 40px;
 	border-bottom: 1px solid rgb(220, 220, 209);
 	border-top: 1px solid rgb(220, 220, 209);
-	height: 100%;
 }
 
 .main_menu > li {
 	display: inline-block; /* You can also add some margins here to make it look prettier */
 	zoom: 1;
 	*display: inline; /* this fix is needed for IE7- */
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.main_menu_container {
 	padding-right: 20;
 	margin: 20px auto;
 	padding: 5px;
+}
+
+.main_menu > li.selected {
+	border-bottom: 2px solid rgb(0, 220, 255);
+	border-top: 2px solid rgb(0, 220, 255);
 }
 
 .rectangular_panel {
@@ -70,10 +78,10 @@ ul.main_menu {
 }
 
 .rectangular_panel_light_blue {
-    background-color: rgb(126, 181, 214);
-    color: rgb(244, 214, 188);
-    border-radius: 15px;
-    padding: 10px;
+	background-color: rgb(126, 181, 214);
+	color: rgb(244, 214, 188);
+	border-radius: 15px;
+	padding: 10px;
 }
 
 .logo_img {
