@@ -1,9 +1,8 @@
 .subtlepattern {
 	/*background: url("../img/creampaper.png");
-	background: url("../img/paper_fibers.png");*/	
-	
-	background: url("../img/subtle_grunge.png");
+	 background: url("../img/paper_fibers.png");*/
 
+	background: url("../img/subtle_grunge.png");
 	/*background: url("../img/otis_redding.png");
 	 background: url("../img/cream_dust.png");*/
 }
@@ -13,13 +12,74 @@
 	src: url("../fonts/open-sans/OpenSans-Light.ttf");
 }
 
+@font-face {
+	font-family: Open Sans;
+	src: url("../fonts/open-sans/OpenSans-Light.ttf");
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: Open Sans;
+	src: url("../fonts/open-sans/OpenSans-ExtraBold.ttf");
+	font-weight: bold;
+}
+
+body {
+	font-family: 'Open Sans';
+	font-weight: normal;
+}
+
+.first_row {
+	padding-top: 40px;
+}
+
+.main_menu {
+	/*	border-bottom: 1px solid rgb(220, 220, 209); */
+	font-family: 'Open Sans';
+	letter-spacing: 0.03em;
+}
+
+/* override foundation's css stuff */
+a {
+	color: rgb(0, 0, 0);
+}
+
+ul.main_menu {
+	list-style: none outside none;
+	list-style-type: none;
+	height: 40px;
+	border-bottom: 1px solid rgb(220, 220, 209);
+	border-top: 1px solid rgb(220, 220, 209);
+	height: 100%;
+}
+
+.main_menu > li {
+	display: inline-block; /* You can also add some margins here to make it look prettier */
+	zoom: 1;
+	*display: inline; /* this fix is needed for IE7- */
+	padding-right: 20;
+	margin: 20px auto;
+	padding: 5px;
+}
+
 .rectangular_panel {
 	text-align: justify;
 	border-radius: 15px 15px 15px 15px;
 	padding: 10px;
-	font-family: 'Open Sans';
-	font-weight: bold;
 	font-style: normal;
+}
+
+.rectangular_panel_light_blue {
+    background-color: rgb(126, 181, 214);
+    color: rgb(244, 214, 188);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.logo_img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto
 }
 
 .padding13 {
