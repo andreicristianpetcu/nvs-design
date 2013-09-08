@@ -2,7 +2,7 @@
 	/*background: url("../img/creampaper.png");
 	 background: url("../img/paper_fibers.png");*/
 
-	background: url("../img/subtle_grunge.png");
+	background: url("../img/billie_holiday.png");
 	/*background: url("../img/otis_redding.png");
 	 background: url("../img/cream_dust.png");*/
 }
@@ -78,8 +78,8 @@ ul.main_menu {
 }
 
 .rectangular_panel_light_blue {
-	background-color: rgb(126, 181, 214);
-	color: rgb(244, 214, 188);
+	background-color: #0096d6;
+	color: #0096d6;
 	border-radius: 15px;
 	padding: 10px;
 }
