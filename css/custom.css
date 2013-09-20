@@ -69,8 +69,8 @@ ul.main_menu {
 	display: inline-block; /* You can also add some margins here to make it look prettier */
 	zoom: 1;
 	*display: inline; /* this fix is needed for IE7- */
-	padding-left: 14px;
-	padding-right: 14px;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 .main_menu_container {
